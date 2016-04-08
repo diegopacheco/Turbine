@@ -1,6 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
+sourceCompatibility = 1.8 
+targetCompatibility = 1.8
+
     dependencies {
         provided 'com.google.code.findbugs:jsr305:2.0.0'
         compile 'com.netflix.archaius:archaius-core:0.4.1'
