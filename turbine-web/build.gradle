@@ -10,5 +10,5 @@ apply plugin: 'jetty'
     }
 
 jettyRun {
-        httpPort = 7979
+   httpPort = 8181
 }
